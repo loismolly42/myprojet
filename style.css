@@ -99,20 +99,16 @@ footer small {
   width: 60px;
   margin: 1rem 0;
 }
-/* Réduire taille image sur mobile */
 @media (max-width: 576px) {
   img.img {
-    max-width: 70%;  /* réduit l’image */
+    max-width: 70%; 
     height: auto;
   }
-
-/* Offcanvas personnalisé */
-.custom-off {
-  width: 70% !important; /* au lieu de toute la largeur */
-  background-color: rgba(33, 37, 41, 0.9); /* moins sombre */
 }
-
-/* Alléger l’arrière-plan sombre derrière le offcanvas */
+.custom-off {
+  width: 70% !important; 
+  background-color: rgba(33, 37, 41, 0.9); 
+}
 .offcanvas-backdrop.show {
-  background-color: rgba(0, 0, 0, 0.3); /* plus clair */
+  background-color: rgba(0, 0, 0, 0.3); 
 }
