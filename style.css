@@ -99,14 +99,26 @@ footer small {
   width: 60px;
   margin: 1rem 0;
 }
+.zapp{
+  position: relative;
+  animation: upDown 1s infinite;
+}
+@keyframes upDown{
+  0% {top:0;}
+  50%{top: 10px;}
+  100%{top: 0;}
+}
 @media (max-width: 576px) {
   img.img {
     max-width: 70%; 
     height: auto;
   }
+  .zapp{
+    text-align: center;
+  }
 }
 .custom-off {
-  width: 70% !important; 
+  width: 50% !important; 
   background-color: rgba(33, 37, 41, 0.9); 
 }
 .offcanvas-backdrop.show {
